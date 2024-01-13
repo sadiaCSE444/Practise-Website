@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+h2, h3{
+    font-family: 'Inter', sans-serif;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    color: #B3B3B3;
+}
+.btn-primary{
+    color: var(--White-Color, #FFF);
+    background: #FF5959;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px; 
+    margin-bottom: 30px;
+}
+section{
+    text-align: center;
+}
+
+/* header and banner styles */
+
+header{
+    text-align: center;
+    height: 700px;
+    background: #FFF8F3;
+    background-image: url('../images/donation7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    /* background-blend-mode: multiply; */
+    
+    color: white;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 200px;
+}
+.banner-description{
+    text-align:center;
+    padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+    /* color: #707070; */
+}
+main{
+    /* max-width: 900px; */
+    
+    padding: 50px 100px;
+}
+/* donate today styles */
+
+/* .donate-today{
+    text-align: center;
+} */
+.section-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.section-description{
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;;
+    color: #707070;
+}
+.donate-info-container{
+    max-width: 800px;
+    margin: auto;
+    /* background-color: white; */
+}
+.donate-plan{
+    margin-bottom: 40px;
+}
+.donate-info{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    /* gap: 15px; */
+    background: #FAFAFA;
+    padding-bottom: 70px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.tk-btn{
+    width: 135px;
+    height: 120px;
+    /* align-items: center; */
+    border-radius: 5px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.twotk-btn{
+    width: 135px;
+    height: 120px;
+    border-radius: 5px;
+    border: 3px solid #FF5959;
+    background: #FEE;
+    color: #FF5959;
+    font-size: 30px;
+    font-weight: 700;
+}
+.tk-btn, .twotk-btn{
+    font-family: 'Poppins', sans-serif;
+}
+.amount-title{
+    font-size: 18px;
+    /* margin-bottom: 20px; */
+}
+
+/* Donate plan styles */
+.donate-plan-container{
+    display: flex;
+    /* gap: 24px; */
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    justify-content: center;
+}
+.donate{
+    border-radius: 5px;
+    background: #FFF;
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); */
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    text-align: left;
+    border-radius: 5px;
+}
+.food-donate, .shelter-donate, .edu-donate{
+    padding: 60px 20px;
+    border-radius: 5px;
+}
+.food-donate{
+    
+    background: rgba(79, 157, 166, 0.10);
+    /* padding: 60px 20px; */
+}
+.shelter-donate{
+    background: rgba(255, 89, 89, 0.10);
+    /* padding: 60px 20px; */
+}
+.edu-donate{
+    background: #FFF4D6;
+    /* padding: 60px 20px; */
+}
+.donate-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.donate-description{
+    color: #707070;
+    font-size: 16px;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Lives  and survive section styles*/
+.lives-info-container, .survive-info-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.image{
+    width: 500px;
+    margin-top: 80px;
+}
+.lives-info, .survive-info{
+    width: 492px;
+    height: 549px;
+    text-align: left;
+}
+
+/* .lives-description, .survive-description{
+    font-size: 18px;;
+    color: #707070;
+} */
+.lives-title, .survive-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.lives-description, .survive-description{
+    margin-bottom: 15px;
+    font-size: 18px;;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
+.update-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+/* .survive-title, .survive-description{
+    margin-left: 30px;
+} */
+/* .survive-info button{
+    margin-left: 10px;
+} */
+.update{
+    text-align: center;
+}
+.update-info{
+    background: #FFF4D6;
+    width: 809px;
+    height: 200px;
+    margin: 0 auto;
+    
+    /* display: flex; */
+}
+.email{
+    background-color: #AA9F9F;
+    margin: 80px 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+.update-info button{
+    font-size: 16px;
+    padding: 0 40px;
+}
+footer{
+    background-color: black;
+    height: 170px;
+    text-align: center;
+    margin-top: 80px;
+}
+.footer-title{
+    font-family: 'Lobster', sans-serif;
+    font-size: 36px;
+    color: #FF5959;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer-subtitle{
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    color: var(--Text-Gray-300, #D9DBE1);
+}
