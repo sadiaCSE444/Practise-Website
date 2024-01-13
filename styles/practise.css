@@ -29,7 +29,7 @@ section{
 
 header{
     text-align: center;
-    height: 700px;
+    height: 600px;
     background: #FFF8F3;
     background-image: url('../images/donation7.jpg');
     background-repeat: no-repeat;
@@ -40,9 +40,9 @@ header{
     color: white;
 }
 .banner-title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .banner-description{
     text-align:center;
@@ -61,8 +61,8 @@ main{
     text-align: center;
 } */
 .section-title{
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 700;
     margin-top: 80px;
     margin-bottom: 20px;
 }
@@ -187,7 +187,7 @@ main{
     color: #707070;
 } */
 .lives-title, .survive-title{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
     margin-top: 120px;
     margin-bottom: 20px;
@@ -199,7 +199,7 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 .update-title{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
     margin-top: 140px;
     margin-bottom: 20px;
