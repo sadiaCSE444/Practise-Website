@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     /* font-family: 'Open Sans', sans-serif; */
 }
@@ -8,6 +8,9 @@ h2, h3{
 h5{
     font-family: 'Poppins', sans-serif;
     color: #B3B3B3;
+}
+button{
+    cursor: pointer;
 }
 .btn-primary{
     color: var(--White-Color, #FFF);
@@ -31,6 +34,9 @@ header{
     text-align: center;
     height: 450px;
     background: #FFF8F3;
+    /* background-image: linear-gradient(white,black), url('../images/donation7.jpg'); */
+    /* background-image: linear-gradient(white,black); */
+    /* background: linear-gradient(to top,#2c3e50, #bdc3c7), url('images/donation7.jpg'); */ 
     background-image: url('../images/donation7.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -99,7 +105,7 @@ main{
     /* align-items: center; */
     border-radius: 5px;
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 .twotk-btn{
@@ -109,14 +115,25 @@ main{
     border: 3px solid #FF5959;
     background: #FEE;
     color: #FF5959;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 .tk-btn, .twotk-btn{
     font-family: 'Poppins', sans-serif;
 }
+/* To remove arrows from input number field */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
 .amount-title{
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    height: 40px;
+    /* -webkit-appearance: none; */
     /* margin-bottom: 20px; */
 }
 
