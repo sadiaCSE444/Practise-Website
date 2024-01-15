@@ -118,7 +118,7 @@ main{
     font-size: 25px;
     font-weight: 700;
 }
-.tk-btn, .twotk-btn{
+.tk-btn, .twotk-btn, .amount-title{
     font-family: 'Poppins', sans-serif;
 }
 /* To remove arrows from input number field */
@@ -130,13 +130,13 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 .amount-title{
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
     border: none;
     height: 40px;
-    /* -webkit-appearance: none; */
-    /* margin-bottom: 20px; */
+    width: 800px;
+    padding-left: 10px;
+    text-align: center;
+    outline: none;
 }
-
 /* Donate plan styles */
 .donate-plan-container{
     display: flex;
