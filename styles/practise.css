@@ -34,14 +34,14 @@ header{
     text-align: center;
     height: 450px;
     background: #FFF8F3;
-    /* background-image: linear-gradient(white,black), url('../images/donation7.jpg'); */
-    /* background-image: linear-gradient(white,black); */
-    /* background: linear-gradient(to top,#2c3e50, #bdc3c7), url('images/donation7.jpg'); */ 
-    background-image: url('../images/donation7.jpg');
+    background: rgba(0,0,0,0.7) url('../images/donation7.jpg');
+    /* background-image: linear-gradient(to top,rgba(0,0,0,1), rgba(0,0,0,0)); */
+    /* opacity: 0.5; */
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    /* background-blend-mode: multiply; */
+    position: relative;
+    background-blend-mode: darken;
     
     color: white;
 }
